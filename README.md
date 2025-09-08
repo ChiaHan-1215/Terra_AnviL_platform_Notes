@@ -1,9 +1,51 @@
 # Goal: The place where store Terra Anvil platform related notes
 
+## Creating a Terra Account and Linking NIH Credentials
 
-## How to login lab GCP account
+### Important Requirements
+To create a Terra account that can be linked to NIH credentials, **you cannot use a Google email address** (e.g., `xxx@gmail.com`). Instead, you must set up your Terra account using a non-Google email address, such as your NIH email.
 
-## How to link to Terra platform
+### Step 1: Create Your Terra Account
+Follow the detailed instructions at this link:
+
+https://support.terra.bio/hc/en-us/articles/360029186611-How-to-set-up-a-Terra-account-with-a-non-Google-email
+
+**Key Point:** When creating your Google account during the setup process, select **"Use your existing email"** instead of creating a new Gmail address.
+
+### Step 2: Log Into Terra and Link Your NIH Account
+Once your account is created, follow these steps:
+
+1. **Log into Terra:** 
+   - Navigate to `https://anvil.terra.bio/`
+   - Click the `Sign In` button
+   - Select `Sign in with Google`
+   - Log in using the account you created in Step 1
+
+2. **Access your profile:**
+   - Go to the main navigation menu by clicking the three horizontal lines at the top left of any Terra page
+   - Click on your name to expand the menu, then select **Profile**
+
+3. **Navigate to External Identities:**
+   - Click on the **EXTERNAL IDENTITIES** tab
+
+4. **Link your NIH account:**
+   - Click the button to log into NIH under **External Identities**
+   - You'll be redirected to an external authentication webpage
+   - Follow the on-screen instructions to link your accounts
+
+5. **Verify the connection:**
+   - Once successfully linked, you'll see a link expiration deadline displayed
+
+### Additional Resources
+For detailed information about linking your NIH account in Terra, refer to:
+
+https://support.terra.bio/hc/en-us/articles/19124069598235-Access-controlled-data-files-by-linking-your-NIH-account-in-Terra
+
+
+
+# How to login lab GCP account
+
+# How to link to Terra platform
 
 Ref, in Step2: https://support.terra.bio/hc/en-us/articles/360046295092-Claim-300-Google-credits-to-explore-Terra
 
@@ -25,11 +67,6 @@ Ref, in Step2: https://support.terra.bio/hc/en-us/articles/360046295092-Claim-30
 
 
 
-### - Link NIH credentials to Terra 
-In order to access dbGAP or controlled data, link your NIH account to Terra.
-
-1. Go to acoount
-2. xxx
 
 
 ### - Create a Terra Billing Project
@@ -55,9 +92,9 @@ Screenshot of Billing page with Create Terra billing project button at top highl
 
 
 
-## How to use Terra platform
+# How to use Terra platform
 
-## How to dowload stuff from Google bucket using command tools
+# How to dowload stuff from Google bucket using command tools
 
 
 
