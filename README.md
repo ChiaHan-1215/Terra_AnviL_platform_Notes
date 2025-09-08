@@ -49,7 +49,7 @@ https://support.terra.bio/hc/en-us/articles/19124069598235-Access-controlled-dat
 
 Ref, in Step2: https://support.terra.bio/hc/en-us/articles/360046295092-Claim-300-Google-credits-to-explore-Terra
 
-### - Link GCP bucket to Terra
+### Link GCP bucket to Terra
 
   Link GCP to your Terra account so that it can download or do analysis on platform.
 
@@ -69,7 +69,7 @@ Ref, in Step2: https://support.terra.bio/hc/en-us/articles/360046295092-Claim-30
 
 
 
-### - Create a Terra Billing Project
+### Create a Terra Billing Project
 Need this for Billing Project to create workspace to work on Terra.
 
 1. Log into app.terra.bio, then click on the main navigation menu (three horizontal lines at the top left of any page). 
