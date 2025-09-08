@@ -1,5 +1,7 @@
 # Goal: The place where store Terra Anvil platform related notes
 
+*********
+
 ## Creating a Terra Account and Linking NIH Credentials
 
 ### Important Requirements
@@ -41,14 +43,14 @@ For detailed information about linking your NIH account in Terra, refer to:
 
 https://support.terra.bio/hc/en-us/articles/19124069598235-Access-controlled-data-files-by-linking-your-NIH-account-in-Terra
 
-
+*********
 
 # How to login lab GCP account
-
+*********
 # How to link to Terra platform
 
 Ref, in Step2: https://support.terra.bio/hc/en-us/articles/360046295092-Claim-300-Google-credits-to-explore-Terra
-
+*********
 ### Link GCP bucket to Terra
 
   Link GCP to your Terra account so that it can download or do analysis on platform.
@@ -65,7 +67,7 @@ Ref, in Step2: https://support.terra.bio/hc/en-us/articles/360046295092-Claim-30
 
 6. Don't forget the **Save** button!
 
-
+*********
 
 
 
@@ -89,11 +91,11 @@ Screenshot of Billing page with Create Terra billing project button at top highl
 
 
 
-
+*********
 
 
 # How to use Terra platform
-
+*********
 # How to dowload stuff from Google bucket using command tools
 
 
