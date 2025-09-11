@@ -62,7 +62,7 @@ Project ID: 010E56-4E4C15-E446A5
 
 :exclamation: **Step 1:** When logging into https://console.cloud.google.com/, first verify that your Google account has access to the billing account.
 
-:exclamation: **Step 2:** Check whether the billing account has added Terra as a **Billing Account User**. If not, contact CBIIT to follow the steps outlined in this guide: [How to set up billing in Terra](https://support.terra.bio/hc/en-us/articles/360026182251-How-to-set-up-billing-in-Terra-GCP)
+:exclamation: **Step 2:** Check whether the billing account has added Terra as a **Billing Account User**. If not, contact CBIIT to follow the steps outlined in this guide: [In Step 2. Link the Cloud Billing account to Terra](https://support.terra.bio/hc/en-us/articles/360026182251-How-to-set-up-billing-in-Terra-GCP)
 
 #### Support and Troubleshooting
 
