@@ -43,31 +43,30 @@ For detailed information about linking your NIH account in Terra, refer to:
 
 https://support.terra.bio/hc/en-us/articles/19124069598235-Access-controlled-data-files-by-linking-your-NIH-account-in-Terra
 
-*********
 
-# How to login lab GCP account
-*********
-# How to link to Terra platform
+### Step 3: Request a GCP Account Through CBIIT
 
-Ref, in Step2: https://support.terra.bio/hc/en-us/articles/360046295092-Claim-300-Google-credits-to-explore-Terra
-*********
-### Link GCP bucket to Terra
+- **Contact for setup:** Reach out to Wong, Shuk Wan Wendy or Seshadri, Krishnan for consultation and account setup assistance.
 
-  Link GCP to your Terra account so that it can download or do analysis on platform.
+- **Account approval:** Once CBIIT approves your account, they will provide your GCP account information. For our lab, the details are:
 
-1. When logged into Google Chrome with your Terra user ID, go to the [Google Cloud Console Billing page](https://console.cloud.google.com/billing).
+```
+Access your project at https://console.cloud.google.com/
 
-2. Select the **checkbox beside the Google Cloud Billing account** you will use for Terra. For free trial credits, this will be **My Billing Account**.
+Billing Account Name: NIH.NCI.DCEG.LTG_Terra
+Billing ID: 010E56-4E4C15-E446A5
+Project ID: 010E56-4E4C15-E446A5
+```
 
-3. On the right panel, below the billing account's name, select the **Add Principal** button.
+#### Important Verification Steps
 
-4. Add `terra-billing@terra.bio` under **New Principal** in the form.
+:exclamation: **Step 1:** When logging into https://console.cloud.google.com/, first verify that your Google account has access to the billing account.
 
-5. In the dropdown, select the Billing role **Billing Account User**.
+:exclamation: **Step 2:** Check whether the billing account has added Terra as a **Billing Account User**. If not, contact CBIIT to follow the steps outlined in this guide: [How to set up billing in Terra](https://support.terra.bio/hc/en-us/articles/360026182251-How-to-set-up-billing-in-Terra-GCP)
 
-6. Don't forget the **Save** button!
+#### Support and Troubleshooting
 
-*********
+If you encounter any problems or need support (such as adding new members to the billing account), please submit a ticket here: [Google Cloud Service Request](https://service.cancer.gov/ncisp?id=nci_sc_cat_item&sys_id=1d7996f61b818910f360a681f54bcb31)
 
 
 
