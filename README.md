@@ -88,7 +88,7 @@ Screenshot of Billing page with Create Terra billing project button at top highl
 
 7. Select My Billing Account from the dropdown ("My Billing Account" is the default name for your GCP free credits, and it should be the only option) and click the Create button.
 
-
+:exclamation::exclamation::exclamation::exclamation: Maybe I can add people to the billing project I created so that they can also use? Instead of going through Goold billing account request? 
 
 *********
 
