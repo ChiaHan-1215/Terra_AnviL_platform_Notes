@@ -56,6 +56,7 @@ Access your project at https://console.cloud.google.com/
 Billing Account Name: NIH.NCI.DCEG.LTG_Terra
 Billing ID: 010E56-4E4C15-E446A5
 Project ID: 010E56-4E4C15-E446A5
+
 ```
 
 #### Important Verification Steps
@@ -93,9 +94,10 @@ Screenshot of Billing page with Create Terra billing project button at top highl
 *********
 
 
-# How to use Terra platform
-*********
+### Step 4: How to use Terra
+
 # How to dowload stuff from Google bucket using command tools
+
 
 
 
