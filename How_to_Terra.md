@@ -53,9 +53,9 @@ https://support.terra.bio/hc/en-us/articles/19124069598235-Access-controlled-dat
 ```
 Access your project at https://console.cloud.google.com/
 
-Billing Account Name: NIH.NCI.DCEG.LTG_Terra
-Billing ID: 010E56-4E4C15-E446A5
-Project ID: 010E56-4E4C15-E446A5
+Billing Account Name: NIH.NCI.xxx.xxx
+Billing ID: xxx
+Project ID: xxx
 
 ```
 
