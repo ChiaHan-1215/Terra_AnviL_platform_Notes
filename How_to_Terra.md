@@ -94,13 +94,30 @@ Screenshot of Billing page with Create Terra billing project button at top highl
 *********
 
 
-### Step 4: How to use Terra workspaces
+### Step 4: How to create or use public Terra workspaces
+
+
+**Create your own with linked billing project**
+
+1. Sometimes you need to create own workspace wtih linked billing project to access some database. To create one, first select `+` sign right next to top left `Workspces`.
+
+2. Enter a unique workspace name, and optionally a description, Select a billing project we created in previous section `Create a Terra Billing Project`.
+  
+3. After selecting a billing project, a few more input fields will appear. Leave Bucket location set to its default value.
+
+4. For Sharing, Addtitional Security Options, can leave it as default. and clikc `Create Workspace`
+
+5. Now you have the workspace of your own!
+   
+
+**Finding public workspaces**
 
 1. Once login, open main navigation menu by click 3 horizontal lines, then click `Workspaces`.
 
 2. the section contains all kinds of feature workspaces such as GATK related pipeline, to search worksapces, click box on `search by name, project, or bucket`, then type key words.
 
 3. if the workspce mathcs, it will showed as list below. For example when type `CCLE` in search bar, the result will pop-up showing the `CCLE-public` worksapce.
+
 
 
 <img width="1148" height="579" alt="Screenshot 2025-09-16 at 10 16 17 AM" src="https://github.com/user-attachments/assets/32385d8b-d1ea-43cc-8e8c-ab15cf8ec194" />
