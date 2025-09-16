@@ -1,1 +1,2 @@
-# How to set up in Terra
+# The Place for Terra related information
+
