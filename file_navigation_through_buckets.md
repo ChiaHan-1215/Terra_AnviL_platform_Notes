@@ -46,12 +46,21 @@ You can upload primary data stored locally to your workspace storage for analysi
 
 use gcp command
 
-copy files from PD to workspace cloud storage if needed 
+- copy files from Public cloud to PD, use `gs://genomics-in-the-cloud/v1/data/germline` as example
+
+```
+# copy the bam files from public
+
+!gsutil cp gs://genomics-in-the-cloud/v1/data/germline/bams/mother.ba* .
+
+```
+
+- copy files from PD to workspace cloud storage if needed 
 
 ```
 !gsutil cp {files} $BUCKET
 ```
 
-
+- 
 
 
