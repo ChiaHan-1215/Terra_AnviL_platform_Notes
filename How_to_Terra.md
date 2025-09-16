@@ -119,11 +119,22 @@ Screenshot of Billing page with Create Terra billing project button at top highl
 3. if the workspce mathcs, it will showed as list below. For example when type `CCLE` in search bar, the result will pop-up showing the `CCLE-public` worksapce.
 
 
+## Example of how to view IGV on Terra 
 
+Terra has build-in IGV for viewing alignemnts and variant calling. 
+
+When seeing igv icon in the top 
+
+
+
+Sometimes it will pop-up this window, when this show up, select the worksapce we created before.
 <img width="1148" height="579" alt="Screenshot 2025-09-16 at 10 16 17 AM" src="https://github.com/user-attachments/assets/32385d8b-d1ea-43cc-8e8c-ab15cf8ec194" />
 
+and now the files can be loaded in the IGV, and we can negavitae the region just like IGV desktop version.
 
-# How to dowload stuff from Google bucket using command tools
+
+
+## How to dowload stuff from Google bucket using command tools
 
 Once have access to GCP, basiclly just like we useually download files on the website by clicking download links. Sometines it will show you need `Bucket is a requester pays bucket but no user project provided.`. In this case, click top right `Select a project` and select billing account linked project. 
 
