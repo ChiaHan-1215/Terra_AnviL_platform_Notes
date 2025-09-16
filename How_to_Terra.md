@@ -87,17 +87,27 @@ Screenshot of Billing page with Create Terra billing project button at top highl
 
 6. Name your Billing project.
 
-7. Select My Billing Account from the dropdown ("My Billing Account" is the default name for your GCP free credits, and it should be the only option) and click the Create button.
+7. Select My Billing Account from the dropdown and you should see NIH.NCI.xxx.xxx in the select box and click the Create button.
 
 :exclamation::exclamation::exclamation::exclamation: Maybe I can add people to the billing project I created so that they can also use? Instead of going through Goold billing account request? 
 
 *********
 
 
-### Step 4: How to use Terra
+### Step 4: How to use Terra workspaces
+
+1. Once login, open main navigation menu by click 3 horizontal lines, then click `Workspaces`.
+
+2. the section contains all kinds of feature workspaces such as GATK related pipeline, to search worksapces, click box on `search by name, project, or bucket`, then type key words.
+
+3. if the workspce mathcs, it will showed as list below. For example when type `CCLE` in search bar, the result will pop-up showing the `CCLE-public` worksapce.
+
 
 # How to dowload stuff from Google bucket using command tools
 
+Once have access to GCP, basiclly just like we useually download files on the website by clicking download links. Sometines it will show you need `Bucket is a requester pays bucket but no user project provided.`. In this case, click top right `Select a project` and select billing account linked project. 
+
+Biowulf Helix system and ccad2 have build-in google command that helps dowunload files more easiely.
 
 
 
