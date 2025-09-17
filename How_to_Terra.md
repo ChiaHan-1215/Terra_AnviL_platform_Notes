@@ -123,9 +123,11 @@ Screenshot of Billing page with Create Terra billing project button at top highl
 
 Terra has a built-in IGV (Integrative Genomics Viewer) for viewing alignments and variant calling data.
 
-- We use the `CCLE-Public` dataset as an example. Once you access the workspace, click `DATA` at the top near the `DASHBOARD`.
+- We use the `CCLE-Public` dataset as an example. Once you access the workspace, click the three dots on the top right of screen, and clinkc `clone` to clone the workspace to our working space.
 
-- Once you access the DATA section, enter the cell line of interest in the search box or simply click `model` to access the full table.
+- you can change workspace name and description, but keep other options as defacult. 
+
+- Once you have coloned the workspace, click `DATA` at the top near the `DASHBOARD`, in DATA section, enter the cell line of interest in the search box or simply click `model` to access the full table.
 
 - In this table, there's an IGV icon at the top as shown in the image below. Select the row of the cell of interest, then click the IGV icon and select `Open with IGV`.
 
@@ -133,7 +135,7 @@ Terra has a built-in IGV (Integrative Genomics Viewer) for viewing alignments an
 
 - A pop-up table will appear showing which BAM files you want to view. Select the one of interest.
 
-Sometimes a window will pop up asking you to select a workspace to bill to. When this appears, select the workspace we created earlier.
+Sometimes a window will pop up asking you to select a workspace to bill to. When this appears, select the workspace we created earlier. (Since we cloned the workspcae, usually won't pop-up this selection.)
 
 <img width="1148" height="579" alt="Screenshot 2025-09-16 at 10 16 17 AM" src="https://github.com/user-attachments/assets/32385d8b-d1ea-43cc-8e8c-ab15cf8ec194" />
 
