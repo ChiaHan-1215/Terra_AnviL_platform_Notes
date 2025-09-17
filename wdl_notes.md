@@ -3,7 +3,7 @@
 ### the "~" meaning 
 When you use `~{File_variable}` within a command block, WDL will automatically quote the path of the File_variable when it's passed to the underlying shell command. 
 
-If input_data is a file named my data.txt, using ~{input_data} will ensure that the command executed by the shell is something like:
+If input_data is a file named `my data.txt`, using ~{input_data} will ensure that the command executed by the shell is something like:
 
 ```wdl
 task process_file {
