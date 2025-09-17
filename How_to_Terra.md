@@ -123,15 +123,22 @@ Screenshot of Billing page with Create Terra billing project button at top highl
 
 Terra has build-in IGV for viewing alignemnts and variant calling. 
 
-When seeing igv icon in the top 
+- We use `CCLE-Public` dataset as example, once access the workspaece, click `DATA` on the top near the `DASHBOARD`
 
+- Once access the DATA section, enter cell line of interst in the search box or simly click `model` to access full table.
 
+- In this table there's IGV icon on the top showed below as below image, select the row of cell of interest, then click IGV icon and select `open with IGV`
 
-Sometimes it will pop-up this window, when this show up, select the worksapce we created before.
+<img width="1322" height="403" alt="Screenshot 2025-09-17 at 10 33 32 AM" src="https://github.com/user-attachments/assets/862bec5b-fe3e-4028-8266-2a1a759aa282" />
+
+- and it will pop-up the table showing which BAM files you want to view, select one of interst.
+
+Sometimes it will pop-up this window about selecting workspce to bill to, when this show up, select the worksapce we created before.
 <img width="1148" height="579" alt="Screenshot 2025-09-16 at 10 16 17 AM" src="https://github.com/user-attachments/assets/32385d8b-d1ea-43cc-8e8c-ab15cf8ec194" />
 
 and now the files can be loaded in the IGV, and we can negavitae the region just like IGV desktop version.
 
+<img width="1512" height="594" alt="Screenshot 2025-09-17 at 10 39 27 AM" src="https://github.com/user-attachments/assets/3ee04126-db2d-498c-9707-761e84303a72" />
 
 
 ## How to dowload stuff from Google bucket using command tools
