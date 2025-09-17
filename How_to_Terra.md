@@ -119,26 +119,27 @@ Screenshot of Billing page with Create Terra billing project button at top highl
 3. if the workspce mathcs, it will showed as list below. For example when type `CCLE` in search bar, the result will pop-up showing the `CCLE-public` worksapce.
 
 
-## Example of how to view IGV on Terra 
+## Example of How to View IGV on Terra 
 
-Terra has build-in IGV for viewing alignemnts and variant calling. 
+Terra has a built-in IGV (Integrative Genomics Viewer) for viewing alignments and variant calling data.
 
-- We use `CCLE-Public` dataset as example, once access the workspaece, click `DATA` on the top near the `DASHBOARD`
+- We use the `CCLE-Public` dataset as an example. Once you access the workspace, click `DATA` at the top near the `DASHBOARD`.
 
-- Once access the DATA section, enter cell line of interst in the search box or simly click `model` to access full table.
+- Once you access the DATA section, enter the cell line of interest in the search box or simply click `model` to access the full table.
 
-- In this table there's IGV icon on the top showed below as below image, select the row of cell of interest, then click IGV icon and select `open with IGV`
+- In this table, there's an IGV icon at the top as shown in the image below. Select the row of the cell of interest, then click the IGV icon and select `Open with IGV`.
 
-<img width="1322" height="403" alt="Screenshot 2025-09-17 at 10 33 32 AM" src="https://github.com/user-attachments/assets/862bec5b-fe3e-4028-8266-2a1a759aa282" />
+<img width="1322" height="403" alt="Screenshot 2025-09-17 at 10 33 32 AM" src="https://github.com/user-attachments/assets/862bec5b-fe3e-4028-8266-2a1a759aa282" />
 
-- and it will pop-up the table showing which BAM files you want to view, select one of interst.
+- A pop-up table will appear showing which BAM files you want to view. Select the one of interest.
 
-Sometimes it will pop-up this window about selecting workspce to bill to, when this show up, select the worksapce we created before.
-<img width="1148" height="579" alt="Screenshot 2025-09-16 at 10 16 17 AM" src="https://github.com/user-attachments/assets/32385d8b-d1ea-43cc-8e8c-ab15cf8ec194" />
+Sometimes a window will pop up asking you to select a workspace to bill to. When this appears, select the workspace we created earlier.
 
-and now the files can be loaded in the IGV, and we can negavitae the region just like IGV desktop version.
+<img width="1148" height="579" alt="Screenshot 2025-09-16 at 10 16 17 AM" src="https://github.com/user-attachments/assets/32385d8b-d1ea-43cc-8e8c-ab15cf8ec194" />
 
-<img width="1512" height="594" alt="Screenshot 2025-09-17 at 10 39 27 AM" src="https://github.com/user-attachments/assets/3ee04126-db2d-498c-9707-761e84303a72" />
+Now the files can be loaded in IGV, and you can navigate the region just like the IGV desktop version.
+
+<img width="1512" height="594" alt="Screenshot 2025-09-17 at 10 39 27 AM" src="https://github.com/user-attachments/assets/3ee04126-db2d-498c-9707-761e84303a72" />
 
 
 ## How to dowload stuff from Google bucket using command tools
