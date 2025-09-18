@@ -7,7 +7,7 @@
 ### Important Requirements
 To create a Terra account that can be linked to NIH credentials, **you cannot use a Google email address** (e.g., `xxx@gmail.com`). Instead, you must set up your Terra account using a non-Google email address, such as your NIH email.
 
-### Step 1: Create Your Terra Account
+### Step 1: Create Your Terra Account with a non-Google email
 Follow the detailed instructions at this link:
 
 https://support.terra.bio/hc/en-us/articles/360029186611-How-to-set-up-a-Terra-account-with-a-non-Google-email
