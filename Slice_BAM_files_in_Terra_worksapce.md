@@ -27,4 +27,16 @@ gsutil -u <PROJECT_ID> cat gs://cclebams/wgs_hg38/xxx-XVt7q2.hg38.bam \
   | samtools view -b - chr5:123-123456 > chr5_slice.bam
 
 
+# BUT it's actully cost same amout fee compare to download whole bam first and then slice locally...
+
+# 2, use gcsfuse, still not try out yet
+
+# Mount with billing project (Requester Pays)
+mkdir -p ~/gcs-ccle
+gcsfuse --billing-project <PROJECT_ID> -o ro cclebams ~/gcs-ccle
+
+# Slice to BAM (uses .bai for random access)
+samtools view -b ~/gcs-ccle/wgs_hg38/xxx-XVt7q2.hg38.bam chr5:123-123456 > chr5_slice.bam
+samtools index chr5_slice.bam
+
 ```
