@@ -33,10 +33,25 @@ gsutil -u <PROJECT_ID> cat gs://cclebams/wgs_hg38/xxx-XVt7q2.hg38.bam \
 so for now, only way is either downloading the whole BAMs to local drive current dictionaly and then do slice
 
 ```
-gsutil -u <PROJECT_ID> cp gs://cclebams/wgs_hg38/xxx-XVt7q2.hg38.ba . 
+gsutil -u <PROJECT_ID> cp 'gs://cclebams/wgs_hg38/xxx-XVt7q2.hg38.bai' . 
 ```
 ### Helix in Biowulf and ccad2 can use gsutil command to download stuff
 
+- example as below
+  
+```
+# once login to Helix/CCAD2
+
+module load google-cloud-sdk
+
+# follow URL to login google
+gcloud auth login
+
+# once sucess, use code shown before
+gsutil -u <PROJECT_ID> cp 'gs://fc-secure-ff8156a3-ddf3-42e4-9211-0fd89da62108/xxx.md.bam' .
+
+
+```
 
 
 
