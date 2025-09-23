@@ -63,11 +63,12 @@ Once set up this and GCP seems work!
 test
 gs://fc-secure-8df0d2f5-1c5c-4150-8da6-771e376c42f6/phs003181.v2.p1/data_files/NABEC_KEN-1066_FTX/reads/NABEC_KEN-1066_FTX.GRCh38.bam
 
-I think its not using this but the GCS
-#gcloud auth print-access-token > /home/jupyter/token.txt
-#export HTS_AUTH_LOCATION="/home/jupyter/token.txt"
 
-export GCS_OAUTH_TOKEN=$(gcloud auth application-default print-access-token)
+export GCS_OAUTH_TOKEN=$(gcloud auth application-default print-access-token) # Note: only 1 hour usage, after that had to reactivate again
+
+# othter way is use below to continue activate 
+
+gcloud auth application-default login
 
 # Set the billing project ID (or number) that should be charged
 export GCS_REQUESTER_PAYS_PROJECT=<YOUR_PROJECT_ID> # get this gcp id from click the cloned dashborad, and see id of the bucket "Google Project ID"
