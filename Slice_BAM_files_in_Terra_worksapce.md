@@ -17,24 +17,35 @@ conda install "SAMtools>=1.13"
 ```
 
 - 
-Once create a VM, go to the termainl consle
 
 
-```
-# the key script, the -u bucket is the bucket id used in billing project of this copy of workspace.
+### Update!
 
-gsutil -u <PROJECT_ID> cat gs://cclebams/wgs_hg38/xxx-XVt7q2.hg38.bam \
-  | samtools view -b - chr5:123-123456 > chr5_slice.bam
+- samtools v1.21
 
-```
-
-**BUT it's actully cost same amout fee compare to download whole bam first and then slice locally...**
-
-so for now, only way is either downloading the whole BAMs to local drive current dictionaly and then do slice
+Once set up this and GCP seems work!
 
 ```
-gsutil -u <PROJECT_ID> cp 'gs://cclebams/wgs_hg38/xxx-XVt7q2.hg38.bai' . 
+test
+gs://fc-secure-8df0d2f5-1c5c-4150-8da6-771e376c42f6/phs003181.v2.p1/data_files/NABEC_KEN-1066_FTX/reads/NABEC_KEN-1066_FTX.GRCh38.bam
+
+export GCS_OAUTH_TOKEN=$(gcloud auth application-default print-access-token) # Note: only 1 hour usage, after that had to reactivate again
+
+# othter way is use below to continue activate 
+
+gcloud auth application-default login
+
+# Set the billing project ID (or number) that should be charged
+export GCS_REQUESTER_PAYS_PROJECT=<YOUR_PROJECT_ID> # get this gcp id from click the cloned dashborad, and see id of the bucket "Google Project ID"
+
+samtools view -b gs://BUCKET/path/reads.bam | head 
+
 ```
+********************************************
+********************************************
+
+## For downloading BAM file
+
 ### Helix in Biowulf and ccad2 can use gsutil command to download stuff
 
 - example as below
@@ -49,31 +60,6 @@ gcloud auth login
 
 # once sucess, use code shown before
 gsutil -u <PROJECT_ID> cp 'gs://fc-secure-ff8156a3-ddf3-42e4-9211-0fd89da62108/xxx.md.bam' .
-
-
-```
-
-### Update!
-
-- samtools v1.21
-
-Once set up this and GCP seems work!
-
-```
-test
-gs://fc-secure-8df0d2f5-1c5c-4150-8da6-771e376c42f6/phs003181.v2.p1/data_files/NABEC_KEN-1066_FTX/reads/NABEC_KEN-1066_FTX.GRCh38.bam
-
-
-export GCS_OAUTH_TOKEN=$(gcloud auth application-default print-access-token) # Note: only 1 hour usage, after that had to reactivate again
-
-# othter way is use below to continue activate 
-
-gcloud auth application-default login
-
-# Set the billing project ID (or number) that should be charged
-export GCS_REQUESTER_PAYS_PROJECT=<YOUR_PROJECT_ID> # get this gcp id from click the cloned dashborad, and see id of the bucket "Google Project ID"
-
-samtools view -b gs://BUCKET/path/reads.bam | head 
 
 
 ```
