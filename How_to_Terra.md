@@ -145,10 +145,19 @@ Now the files can be loaded in IGV, and you can navigate the region just like th
 
 
 ## How to dowload stuff from Google bucket using command tools
+## This needs to update!!
+
 
 Once have access to GCP, basiclly just like we useually download files on the website by clicking download links. Sometines it will show you need `Bucket is a requester pays bucket but no user project provided.`. In this case, click top right `Select a project` and select billing account linked project. 
 
 Biowulf Helix system and ccad2 have build-in google command that helps dowunload files more easiely.
 
 
+- Use GTEx v10 data as example, on the dscription to select the paid buctket
+
+- and with screenshot
+
+- check the creditial to see if it needs renew
+
+- 
 
