@@ -1,5 +1,9 @@
 # Related notes for construction/working wiht wdl script
 
+
+wdl notes: https://support.terra.bio/hc/en-us/articles/360037117492-Overview-Getting-started-with-WDL
+
+
 ### the "~" meaning 
 When you use `~{File_variable}` within a command block, WDL will automatically quote the path of the File_variable when it's passed to the underlying shell command. 
 
