@@ -165,7 +165,7 @@ Now you can acees each folder and select which file you wnat to download, to ena
 
 Once click the Select a biling project section, it will show project id that we created in prevous step `Create a Terra Billing Project`. Select the project and 
 
-![Uploading Screenshot 2025-11-10 at 1.48.15 PM.png…]()
+![Screenshit_1.png](TEst)
 
 
 
