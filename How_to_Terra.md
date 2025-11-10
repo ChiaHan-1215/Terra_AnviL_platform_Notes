@@ -165,15 +165,29 @@ Now you can acees each folder and select which file you wnat to download, to ena
 
 Once click the Select a biling project section, it will show project id that we created in prevous step `Create a Terra Billing Project`. Select the project and 
 
-![Screenshit_1.png](TEst)
+![Uploading Screenshot 2025-11-10 at 1.48.15 PM.png…]()
+
+Once select the project correctly, now you can dwoload file by clicking **download file** button/symbol on the right 
+
+<img width="73" height="48" alt="Screenshot 2025-11-10 at 1 55 03 PM" src="https://github.com/user-attachments/assets/82dc1882-fbc7-443e-b686-6ff95fcde5b2" />
 
 
 
 Thew other way to download file is use gustil command in the Helix/CCAD2 system. 
 
-
 ```
+# once login to Helix
+module load google-cloud-sdk
 
+gcloud auth login
+# follow URL to login google
+
+# download GTEx gusil URL
+# -u is my $300 project id
+# gs://xxx is GTEx bucket gsutil URL 
+
+
+gsutil -u hale-cocoa-xxx cp gs://fc-secure-ba7a45c3-e08a-4a09-834b-xxx/GTEx_Analysis_2021-02-11_v9_WGS_VCF_xxx/GTEx_Analysis_xxx-11_v9_WholeGenomeSeq_xxx.tbi .
 
 
 ```
