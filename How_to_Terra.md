@@ -89,7 +89,7 @@ Screenshot of Billing page with Create Terra billing project button at top highl
 
 7. Select My Billing Account from the dropdown and you should see NIH.NCI.xxx.xxx in the select box and click the Create button.
 
-:exclamation::exclamation::exclamation::exclamation: Maybe I can add people to the billing project I created so that they can also use? Instead of going through Goold billing account request? 
+:exclamation::exclamation::exclamation::exclamation: I can add people to the billing project I created so that they can also use. Instead of going through Goold billing account request.
 
 *********
 
@@ -148,16 +148,35 @@ Now the files can be loaded in IGV, and you can navigate the region just like th
 ## This needs to update!!
 
 
-Once have access to GCP, basiclly just like we useually download files on the website by clicking download links. Sometines it will show you need `Bucket is a requester pays bucket but no user project provided.`. In this case, click top right `Select a project` and select billing account linked project. 
-
-Biowulf Helix system and ccad2 have build-in google command that helps dowunload files more easiely.
 
 
-- Use GTEx v10 data as example, on the dscription to select the paid buctket
+In this case, click top right **Select a project** and select billing account linked project. 
 
-- and with screenshot
+We use GTEx v10 GCP for example.
 
-- check the creditial to see if it needs renew
+GTEx v10 has controlled access for their eQTL,vcf files etc in the Terra.bio workspace (https://www.gtexportal.org/home/protectedDataAccess), to dowload those file.
+first loging your Terra with linked dbGAP account (In Step2). Once login, go to the workspacce page. (https://app.terra.bio/#workspaces/anvil-datastorage/AnVIL_GTEx_V10_hg38). In this Workspace, you can clikc **Open bucket in browser** in the right side of scrren and access their google bucket as shown below.
 
-- 
+
+<img width="1575" height="830" alt="Screenshot 2025-11-10 at 1 37 40 PM" src="https://github.com/user-attachments/assets/2a299aef-7815-4963-937c-665d40d912b3" />
+
+
+Now you can acees each folder and select which file you wnat to download, to enable download, we need to click **Select a biling project** to select our pay bucket, otherwise it will show you need **Bucket is a requester pays bucket but no user project provided.** error. 
+
+Once click the Select a biling project section, it will show project id that we created in prevous step `Create a Terra Billing Project`. Select the project and 
+
+![Uploading Screenshot 2025-11-10 at 1.48.15 PM.png…]()
+
+
+
+Thew other way to download file is use gustil command in the Helix/CCAD2 system. 
+
+
+```
+
+
+
+```
+
+
 
