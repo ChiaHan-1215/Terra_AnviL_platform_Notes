@@ -47,6 +47,7 @@ samtools view -b gs://BUCKET/path/reads.bam | head
 ### Processing Multiple BAM Files
 
 To download multiple BAM files, first create a link file. The file should look like this, with each line representing a BAM file link:
+**THIS PART SHOULD BE MORE DETAILED**
 
 ```
 gs://xxx/xxx/A549.bam
