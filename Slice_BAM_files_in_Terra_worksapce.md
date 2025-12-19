@@ -49,6 +49,10 @@ samtools view gs://BUCKET/path/reads.bam | head
 To download multiple BAM files, first create a link file. The file should look like this, with each line representing a BAM file link:
 **THIS PART SHOULD BE MORE DETAILED**
 
+
+- Dowload tsv meta table, open as text file or excel file, copy the column where the download link is.
+and in the Jypter termial, create a empty text using `nano WGS_list.txt` and paste the links and save.
+
 ```
 gs://xxx/xxx/A549.bam
 gs://xxx/xxx/RT4.bam
@@ -58,16 +62,17 @@ gs://xxx/xxx/RT4.bam
 save it as `WGS_list.txt`:
 
 ```bash
+
 mkdir ~/bam_slice
 outdir=/home/jupyter/bam_slice
 region="chr14:94672700-96481700"
-mkdir -p "$outdir"
 
 while IFS= read -r i; do
   base="$(basename "$i")"   # e.g. CDS-EQ7NTo.bam
   out="$outdir/${base%.bam}_chr14.bam"
   samtools view "$i" "$region" -b -o "$out"
 done < WGS_list.txt
+
 ```
 
 ### Transferring Files to Workspace
