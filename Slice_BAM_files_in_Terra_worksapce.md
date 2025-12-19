@@ -41,7 +41,7 @@ gcloud auth application-default login
 export GCS_REQUESTER_PAYS_PROJECT=<YOUR_PROJECT_ID>  # Get this GCP ID from the cloned dashboard bucket "Google Project ID"
 
 # Check if you can now access BAM files
-samtools view -b gs://BUCKET/path/reads.bam | head 
+samtools view gs://BUCKET/path/reads.bam | head 
 ```
 
 ### Processing Multiple BAM Files
